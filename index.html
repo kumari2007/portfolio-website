@@ -1,31 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Pravallika Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<nav>
+    <h2>Pravallika Portfolio</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
 <header>
-    <h1>Pravallika Portfolio</h1>
+    <h1>Yendluri Kumari Pravallika Sri</h1>
+    <p id="typing"></p>
 </header>
 
-<section>
+<section id="about">
     <h2>About Me</h2>
-    <p>I am a 2nd year AIML student learning Full Stack Development.</p>
-</section>
-<!--update 1-->
-<section>
-    <h2>Projects</h2>
-    <p>Credit Card Fraud Detection System</p>
+    <p>
+        I am an AIML student passionate about building intelligent systems and web applications.
+        I enjoy solving real-world problems using AI and full stack technologies.
+    </p>
 </section>
 
-<section>
-    <h2>Contact Me</h2>
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+
+        <li>
+            <b>Sign Language Detection System (Amrita Hackathon 2.0x)</b><br>
+            Built a real-time sign language recognition system using machine learning
+            to convert hand gestures into text.<br>
+            <b>Tech:</b> Python, OpenCV, ML
+        </li>
+
+        <li>
+            <b>Password Strength Checker</b><br>
+            Real-time password validation with visual feedback.
+        </li>
+
+        <li>
+            <b>Form Validation System</b><br>
+            JavaScript-based validation for better input accuracy.
+        </li>
+
+        <li>
+            <b>Quiz Application</b><br>
+            Java console app for quiz and scoring system.
+        </li>
+
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <div class="contact-links">
+        <a href="mailto:kumaripravallikasri@gmail.com">Email</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+    </div>
+
     <form method="POST" action="form.php">
-        <input type="text" name="name" placeholder="Name" required><br>
-        <input type="email" name="email" placeholder="Email" required><br>
-        <textarea name="message" placeholder="Message"></textarea><br>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message"></textarea>
         <button type="submit">Send</button>
     </form>
 </section>
