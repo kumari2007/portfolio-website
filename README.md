@@ -1,6 +1,6 @@
 # 🌐 Portfolio Website
 
-This is my personal portfolio website developed as part of my Full Stack Web Development Internship.
+This is my personal portfolio website developed as part of my Full Stack Web Development internship.
 
 ## 🚀 Features
 - Responsive UI
@@ -16,15 +16,15 @@ This is my personal portfolio website developed as part of my Full Stack Web Dev
 - MySQL
 
 ## 📂 Projects Included
-- Sign Language Detection System (Amrita Hackathon 2.0x)
+- Sign Language Detection System (Amrita Hackathon 2.0)
 - Password Strength Checker
 - Form Validation System
 - Quiz Application
 
 ## 📬 Contact
 - Email: kumaripravallikasri@gmail.com
-- GitHub: https://github.com/kumari2007
-- LinkedIn: https://linkedin.com/
+- GitHub: https://github.com/kumari2007/
+- LinkedIn: [https://linkedin.com/](https://www.linkedin.com/in/kumari-pravallika-sri-yendluri-781201330/)
 
 ## 🎯 Purpose
-This project demonstrates my skills in full-stack web development including frontend design and backend integration.# portfolio-website
+This project demonstrates my skills in full-stack web development, including frontend design and backend integration.# portfolio-website
