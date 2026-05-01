@@ -1,31 +1,88 @@
 body {
     font-family: Arial;
-    background: #f4f4f4;
-    text-align: center;
+    margin: 0;
+    background: #f4f6f8;
 }
 
-header {
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
     background: teal;
     color: white;
-    padding: 15px;
+    padding: 10px 20px;
 }
 
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 25px;
+    background: #115e59;
+    color: white;
+}
+
+/* Sections */
 section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
     background: white;
-    margin: 20px;
-    padding: 20px;
     border-radius: 10px;
 }
 
+/* Projects */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+li:hover {
+    background: #e0f2f1;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+/* Contact */
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.contact-links a {
+    background: teal;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Form */
 input, textarea {
     width: 80%;
-    padding: 10px;
-    margin: 10px;
+    margin: 8px auto;
+    display: block;
+    padding: 8px;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 8px 20px;
     background: teal;
     color: white;
     border: none;
+    cursor: pointer;
 }
